@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ShadowByte — Where Legends Begin</title>
 <meta name="description" content="ShadowByte: discover, compete, and conquer the next generation of gaming.">
+<meta property="og:title" content="ShadowByte — Where Legends Begin">
+<meta property="og:description" content="Discover, compete, conquer, and experience the next generation of gaming.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E %3Crect width='100' height='100' rx='22' fill='%230a0a14'/%3E %3Cdefs%3E %3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E %3Cstop offset='0%25' stop-color='%2300e5ff'/%3E %3Cstop offset='100%25' stop-color='%23ff2d78'/%3E %3C/linearGradient%3E %3C/defs%3E %3Cpath d='M56 12 L28 56 H46 L42 90 L74 42 H54 Z' fill='url(%23g)'/%3E %3C/svg%3E">
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,7 +69,7 @@
   <div class="search-panel" id="searchPanel">
     <div class="search-panel-inner">
       <i class="bi bi-search"></i>
-      <input type="text" id="searchInput" placeholder="Search for a game, genre, or platform...">
+      <input type="text" id="searchInput" placeholder="Search for a game, genre, or platform..." aria-label="Search for a game, genre, or platform">
       <button id="searchClose" aria-label="Close search"><i class="bi bi-x-lg"></i></button>
     </div>
     <div class="search-results" id="searchResults"></div>
@@ -262,7 +267,7 @@
 
         <form class="newsletter-form" id="newsletterForm">
           <div class="input-glow-wrap">
-            <input type="email" id="newsletterEmail" placeholder="you@shadowbyte.gg" required>
+            <input type="email" id="newsletterEmail" placeholder="you@shadowbyte.gg" aria-label="Email address" required>
           </div>
           <button type="submit" class="btn btn-primary">
             <span>Subscribe</span>
