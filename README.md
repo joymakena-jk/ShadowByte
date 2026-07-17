@@ -65,6 +65,7 @@ Highlights
 
 Live Demo
 Visit the live website here:
+
 https://joymakena-jk.github.io/ShadowByte/
 
 Lessons Learned
